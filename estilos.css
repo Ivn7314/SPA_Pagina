@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  background-color: #fdf9ee;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+.margen {
+  padding: 15px;
+}
+.centrar {
+  text-align: center;
+}
+.negritas {
+  font-weight: bold;
+}
+/* Div padre 1  */
+a {
+  text-decoration: none;
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
+.contenedor_barraRosa {
+  background-color: #e5357e;
+  border-top: 30px solid #e5357e;
+}
+.contenedor_Publicidad {
+}
+.contenedor_Logo {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contenedor_Redes {
+  width: 65%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+/* Div padre 3  */
+.contenedor_menuBotones {
+  border: 2px #333 solid;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.contenedor_menuBotones a:hover {
+  color: #e5357e;
+}
+.contenedor_menuBotones a {
+  font-size: 20px;
+  font-family: Helvetica;
+}
+.btnMenu {
+  padding: 20px 20px;
+}
+
+/* Div padre fila 4  */
+.contenedor_piedrasIMG {
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 528px;
+  width: auto;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 130px;
+}
+.contenedor_piedrasIMG h2 {
+  font-family: Impact;
+  font-weight: 100;
+  font-size: 40px;
+}
+.contenedor_piedrasIMG p {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* Div padre fila 5  */
+.conedor_Presentacion {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+  font-family: impact;
+  font-weight: 100;
+}
+.contenedor_presentacionInfo {
+  display: inline-block;
+  width: 40%;
+  margin-left: 30px;
+}
+
+.contenedor_presentacionIMG {
+  display: inline-block;
+  width: 45%;
+  height: 450px;
+}
+.contenedor_presentacionIMG img {
+  width: 100%;
+}
+/* Div padre fila 6 */
+.contenedor_buscamosTutalentoIMG {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+.contenedor_buscamosTutalentoInfo {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+}
+/* Div padre 7  */
+.contedor_1 {
+  height: 400px;
+  background-color: #ffeeb3;
+  width: 33%;
+  text-align: center;
+  padding-top: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.contedor_1 img {
+  border-radius: 90px;
+}
+.contedor_1 h2 {
+  font-family: Impact;
+  font-weight: 100;
+}
+.btnRosa {
+  background-color: pink;
+  padding: 15px 20px;
+}
+/* Div padre 8  */
+.contenedor_logoInferior {
+  background-color: white;
+  text-align: center;
+  margin-top: 100px;
+  color: pink;
+}
